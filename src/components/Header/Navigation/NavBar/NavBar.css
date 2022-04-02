@@ -1,0 +1,21 @@
+.NavBar__nav {
+    display: flex;
+    padding: 10px 15px;
+    justify-content: center;
+    width: 100%;
+}
+
+.NavBar__nav-item {
+    padding: 10px 15px;
+    list-style: none;
+    text-align: center;
+}
+
+.NavBar__link {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+}
+
+.NavBar__nav-item:hover {
+}
