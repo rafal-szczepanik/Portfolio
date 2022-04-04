@@ -1,5 +1,5 @@
 .HamburgerBtn {
-    position: absolute;
+    position: fixed;
     top: 30px;
     right: 30px;
     width: 45px;
@@ -16,7 +16,7 @@
     width: 40px;
     height: 4px;
     margin-bottom: 7px;
-    background-color: white;
+    background-color: #cd53ee;
     border-radius: 2px;
     transition: .6s;
 }
