@@ -1,0 +1,10 @@
+.Spinner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(
+            rgb(11, 20, 49),
+            rgba(11, 19, 49, 0.9)
+    )
+}
