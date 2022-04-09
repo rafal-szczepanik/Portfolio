@@ -16,7 +16,6 @@ export const HamburgerBtn = props => {
       />
       <span className="HamburgerBtn__bar"
             style={isOpen ? {transform: "rotate(45deg) translate(-5px, -20px) translateY(15px)"} : null}/>
-      />
     </button>
   );
 };
