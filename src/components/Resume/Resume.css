@@ -1,0 +1,27 @@
+.Resume__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    padding-top: 30px;
+
+    background: linear-gradient(
+            rgb(11, 20, 49),
+            rgba(11, 19, 49, 0.9)
+    );
+    color:white;
+}
+
+.Resume {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.Resume__home-link{
+    text-decoration: none;
+    color: rgb(220, 81, 252);
+}
+.Resume__home-link:hover {
+    border-bottom: 1px solid rgb(220, 81, 252);
+}
