@@ -46,7 +46,7 @@ export const App = () => {
   return (
     <div className="App__background">
       <Routes>
-        <Route path="/" element={<Layout
+        <Route path="/portfolio" element={<Layout
           header={header}
           content={content}
           contact={contact}

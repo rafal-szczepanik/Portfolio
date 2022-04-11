@@ -2,13 +2,12 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rafal-szczepanik.github.io/Portfolio",
+  "homepage": "https://rafal-szczepanik.github.io/portfolio",
   "dependencies": {
     "@formspree/react": "^2.2.4",
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
-    "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-card-flip": "^1.1.5",
     "react-dom": "^17.0.2",
@@ -47,5 +46,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
