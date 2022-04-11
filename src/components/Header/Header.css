@@ -1,0 +1,119 @@
+.Header__container {
+    height: 100vh;
+    background: linear-gradient(
+            rgba(12, 11, 28, 0.4),
+            rgba(12, 11, 28, 0.5)
+    ), url('../../assets/images/bacground_middle.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Header__container-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.Header__article {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    height: 200px;
+    width: 70%;
+    padding: 45px 0;
+}
+
+.Header__heading {
+    padding: 10px 0;
+    letter-spacing: 1px;
+    font-size: 25px;
+    color: white;
+}
+
+.Header__second-heading {
+    line-height: 35px;
+    letter-spacing: 2px;
+    font-size: 27px;
+    color: white;
+}
+
+
+.Header__second-heading-span {
+    color: #cd53ee;
+}
+
+img {
+    height: 250px;
+    width: 250px
+}
+
+@media screen and (min-width: 360px) {
+    .Header__heading {
+        font-size: 29px;
+    }
+
+    .Header__second-heading {
+        line-height: 37px;
+        font-size: 31px;
+    }
+}
+
+@media screen and (min-width: 390px) {
+    .Header__article {
+        height: 250px;
+    }
+
+    .Header__heading {
+        font-size: 32px;
+    }
+
+    .Header__second-heading {
+        line-height: 40px;
+        font-size: 34px;
+    }
+}
+
+@media screen and (min-width: 530px) {
+    .Header__container-content {
+        flex-direction: row;
+        padding-top: 50px;
+    }
+}
+
+@media screen and (min-width: 550px) {
+    .Header__article {
+        line-height: 35px;
+        width: 50%;
+    }
+
+    img {
+        height: 300px;
+        width: 300px
+    }
+}
+
+@media screen and (min-width: 920px) {
+    .Header__article {
+        width: 45%;
+    }
+
+    .Header__heading {
+        font-size: 37px;
+    }
+
+    .Header__second-heading {
+        line-height: 45px;
+        font-size: 39px;
+    }
+
+    img {
+        height: 400px;
+        width: 400px
+    }
+}
+
+

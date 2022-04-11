@@ -10,18 +10,29 @@
             rgb(11, 20, 49),
             rgba(11, 19, 49, 0.9)
     );
-    color:white;
+    color: white;
 }
 
 .Resume {
-    padding-top: 50px;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.Resume__heading{
+    font-size: 22px;
 }
 
-.Resume__home-link{
+.Resume__home-link {
     text-decoration: none;
     color: rgb(220, 81, 252);
 }
+
 .Resume__home-link:hover {
     border-bottom: 1px solid rgb(220, 81, 252);
+}
+
+@media (min-width: 920px) {
+    .Resume {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
 }

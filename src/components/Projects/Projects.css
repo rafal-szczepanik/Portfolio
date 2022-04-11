@@ -1,0 +1,29 @@
+.Projects {
+    padding: 20px 0;
+    background: linear-gradient(
+            rgb(11, 20, 49),
+            rgba(11, 19, 49, 0.9)
+    )
+}
+
+.Projects__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Projects__title {
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+    font-size: 30px;
+}
+
+@media (min-width: 920px) {
+    .Projects__container {
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+}

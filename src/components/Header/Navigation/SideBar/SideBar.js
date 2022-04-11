@@ -2,13 +2,15 @@ import React from 'react';
 import {NavBarItems} from '../../NavBarItems/NavBarItems';
 import './SideBar.css';
 import {Link} from 'react-scroll';
+import {Link as RouterLink} from "react-router-dom";
+import {RedirectLink} from "../../../common/RedirectLink/RedirectLink";
+import {BsGithub} from "react-icons/bs";
 
 export const SideBar = props => {
   const {isOpen, handleCloseMenu} = props;
 
   return (
     <nav className="SideBar">
-      <button>En</button>
       {props.children}
       <ul
         className={
@@ -28,6 +30,16 @@ export const SideBar = props => {
           </li>
         ))
       }
+        <li className="SideBar__nav-item">
+          <RouterLink to={"/resume"} className="SideBar__link">Moje CV</RouterLink>
+        </li>
+        <li className="SideBar__link-container">
+          <RedirectLink
+            url={"https://github.com/rafal-szczepanik/"}
+            text={"Find me on"}
+            otpionalGrafic={<BsGithub style={{fontSize: "22px", margin: "0 10px"}}/>}
+          />
+        </li>
       </ul>
     </nav>
   );

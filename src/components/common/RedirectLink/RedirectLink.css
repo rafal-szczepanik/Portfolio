@@ -1,12 +1,14 @@
 .RedirectLink__link {
     display: flex;
     align-self: center;
+    justify-content: center;
     text-decoration: none;
     color: white;
     background-color: rgba(205, 83, 238, 0.4);
     font-size: 18px;
+    min-width: 100px ;
     border-radius: 5px;
-    padding: 5px 10px;
+    padding: 5px 15px;
     transition: .4s;
     box-shadow: 0 0 4px 0 #fff;
 }
