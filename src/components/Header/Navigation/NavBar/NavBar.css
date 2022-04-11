@@ -1,21 +1,59 @@
+
+
 .NavBar__nav {
-    display: flex;
-    padding: 10px 15px;
-    justify-content: center;
+    position: fixed;
+    display: grid;
+    grid-template-columns: repeat(5, fit-content(120px)) 6fr;
+    grid-auto-rows: auto;
+    grid-gap: 1em;
+    text-align: center;
+    justify-items: end;
+    left: 0;
+    top: 0;
     width: 100%;
+    padding: 10px 15px;
+    transition: all 0.4s ease-out 0s;
+    z-index: 999;
 }
 
+
+
 .NavBar__nav-item {
+    min-width: 80px;
     padding: 10px 15px;
     list-style: none;
     text-align: center;
-}
-
-.NavBar__link {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    font-size: 22px;
     text-decoration: none;
     color: white;
-    font-size: 40px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.NavBar__nav-link {
+    color: white;
+    text-decoration: none;
 }
 
 .NavBar__nav-item:hover {
+    transform: translateY(-3px);
 }
+
+.NavBar__link-active {
+    padding-bottom: 2px;
+    border-bottom: 3px solid rgba(205, 83, 238);
+}
+
+.NavBar__nav-item-github {
+    list-style: none;
+    margin-right: 40px;
+    width: 165px;
+    align-self: center;
+    cursor: pointer;
+}
+
+
+
