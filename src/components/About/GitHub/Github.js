@@ -1,12 +1,9 @@
-import React, {useEffect} from "react";
+import React from "react";
 import GitHubCalendar from "react-github-calendar";
 
 import './Github.css';
 
 export const Github = () => {
-  useEffect(() => {
-    return () => <GitHubCalendar />;
-  }, []);
   return (
     <div className="Github__container">
       <h1 className="Github__heading">
