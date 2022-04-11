@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.bb02d8a3.css",
+    "main.js": "/Portfolio/static/js/main.91640b3a.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/bacground_middle.jpeg": "/Portfolio/static/media/bacground_middle.c93ff9e8c5261bcfaa71.jpeg",
+    "static/media/programmer2.png": "/Portfolio/static/media/programmer2.10610e8131bf174937cc.png",
+    "static/media/wegeprzepisy2.jpg": "/Portfolio/static/media/wegeprzepisy2.bfba8f981727b56a55ea.jpg",
+    "static/media/perfecttree2.jpg": "/Portfolio/static/media/perfecttree2.59bfd369d075957118be.jpg",
+    "static/media/RafalSzczepanikResume.pdf": "/Portfolio/static/media/RafalSzczepanikResume.6fff524699ae2f4a4895.pdf",
+    "static/media/lotterymachine2.jpg": "/Portfolio/static/media/lotterymachine2.3f63a14df7a23bd39444.jpg",
+    "static/media/todolist2.jpg": "/Portfolio/static/media/todolist2.aa5dbe87df9705afecd3.jpg",
+    "static/media/ponggame2.jpg": "/Portfolio/static/media/ponggame2.55d0cb3d7971ad1c9406.jpg",
+    "static/media/react.256x228.png": "/Portfolio/static/media/react.256x228.97301e8b73c16a5d93c6.png",
+    "static/media/sass-original.256x192.png": "/Portfolio/static/media/sass-original.256x192.f90d78731beaa2112149.png",
+    "static/media/file-type-node.227x256.png": "/Portfolio/static/media/file-type-node.227x256.7d1f2533c6f59d695446.png",
+    "index.html": "/Portfolio/index.html",
+    "main.bb02d8a3.css.map": "/Portfolio/static/css/main.bb02d8a3.css.map",
+    "main.91640b3a.js.map": "/Portfolio/static/js/main.91640b3a.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb02d8a3.css",
+    "static/js/main.91640b3a.js"
+  ]
+}
