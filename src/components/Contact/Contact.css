@@ -1,0 +1,25 @@
+.Contact {
+    min-height: 90vh;
+    text-align: center;
+    padding: 20px 0;
+    background: linear-gradient(
+            rgb(11, 20, 49),
+            rgba(11, 19, 49, 0.9)
+    )
+}
+
+.Contact__heading {
+    padding: 15px;
+    color: white;
+    font-size: 24px;
+}
+
+.Contact__second-heading {
+    font-size: 20px;
+    padding: 15px;
+    color: white;
+}
+
+.Contact__heading-span {
+    color: #cd53ee;
+}

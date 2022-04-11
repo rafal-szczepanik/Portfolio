@@ -1,0 +1,168 @@
+.Project__container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(205, 83, 238, 0.03);
+    margin: 20px 0;
+    width: 80%;
+    box-shadow: -4px -3px 15px 0 rgba(205, 83, 238, 0.35);
+    transition: .4s ease;
+}
+
+.Project {
+    height: 500px;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.Project__title {
+    padding: 0 0 15px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.Project_text {
+    text-align: justify;
+    font-size: 15px;
+    padding: 5px;
+    color: white;
+}
+
+.Project__container:hover {
+    box-shadow: -4px -3px 10px 2px rgba(205, 83, 238, 0.6);
+}
+
+.Project__image {
+    margin: 15px 0 10px;
+    height: 140px;
+    width: 249px;
+    filter: opacity(60%);
+    transition: .4s ease;
+}
+
+.Project__technology {
+    display: flex;
+    padding: 15px 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Project__technology-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    padding: 0 5px;
+    transition: .4s ease;
+}
+
+.Project__technology-icon:hover {
+    color: rgba(205, 83, 238);
+}
+
+.Project__flipped-content-container {
+    justify-content: space-between;
+}
+
+.Project__buttons-container {
+    padding: 15px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Project__SeeMore-button {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-style: solid;
+    border-width: 100px 100px 0 0;
+    border-color: transparent rgba(205, 83, 238, 0.6) transparent transparent;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 999;
+    color: white;
+    cursor: pointer;
+    filter: drop-shadow(-2px -2px 4px #000000);
+    transition: .4s ease;
+}
+
+.Project__SeeMore-button:hover {
+    filter: drop-shadow(-5px -5px 9px #000000);
+    border-color: transparent rgba(205, 83, 238, 0.7) transparent transparent;
+}
+
+.Project:hover .Project__image {
+    filter: opacity(80%);
+}
+
+
+.Project__SeeMore-button-text {
+    position: relative;
+    font-size: 17px;
+    text-align: center;
+    top: -32px;
+    right: -43px;
+    line-height: 1.1;
+    transform: rotate(-45deg);
+}
+
+.Project__SeeMore-button-firstline {
+    margin-left: 5px;
+}
+
+@media (min-width: 520px) {
+    .Project__container {
+        width: 60%;
+    }
+
+    .Project {
+        height: 450px;
+    }
+
+    .Project_text {
+        line-height: 18px;
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 720px) {
+    .Project__container {
+        width: 50%;
+    }
+
+    .Project_text {
+        line-height: 20px;
+    }
+}
+
+@media (min-width: 920px) {
+    .Project__container {
+        width: 40%;
+    }
+
+    .Project {
+        height: 500px;
+        justify-content: center;
+    }
+
+    .Project__technology-icon {
+        font-size: 28px;
+        margin: 0 5px;
+    }
+
+    .Project_text {
+        line-height: 25px;
+    }
+
+    .Project__image {
+        height: 197px;
+        width: 350px;
+    }
+}
