@@ -5,19 +5,16 @@
     text-align: center;
     min-height: 100vh;
     padding-top: 30px;
-
-    background: linear-gradient(
-            rgb(11, 20, 49),
-            rgba(11, 19, 49, 0.9)
-    );
     color: white;
+    background: var(--section-backgroundColor);
 }
 
 .Resume {
     padding-top: 40px;
     padding-bottom: 20px;
 }
-.Resume__heading{
+
+.Resume__heading {
     font-size: 22px;
 }
 

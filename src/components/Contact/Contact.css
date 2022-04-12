@@ -2,10 +2,7 @@
     min-height: 90vh;
     text-align: center;
     padding: 20px 0;
-    background: linear-gradient(
-            rgb(11, 20, 49),
-            rgba(11, 19, 49, 0.9)
-    )
+    background: var(--section-backgroundColor)
 }
 
 .Contact__heading {

@@ -161,6 +161,13 @@
         line-height: 25px;
     }
 
+    .Project__title {
+        padding-top: 20px;
+        padding-bottom: 10px;
+        font-size: 23px;
+    }
+
+
     .Project__image {
         height: 197px;
         width: 350px;

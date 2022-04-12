@@ -1,9 +1,6 @@
 .Projects {
     padding: 20px 0;
-    background: linear-gradient(
-            rgb(11, 20, 49),
-            rgba(11, 19, 49, 0.9)
-    )
+    background: var(--section-backgroundColor)
 }
 
 .Projects__container {

@@ -1,5 +1,9 @@
 :root {
     --span-color: #cd53ee;
+    --section-backgroundColor: linear-gradient(
+            rgb(11, 20, 49),
+            rgba(11, 19, 49, 0.9)
+    )
 }
 
 * {
