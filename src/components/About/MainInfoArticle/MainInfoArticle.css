@@ -1,0 +1,38 @@
+.MainInfoArticle__main-container {
+    width: 90%;
+    text-align: center;
+}
+
+.MainInfoArticle__heading {
+    padding: 20px 0 10px;
+    color: white;
+    font-size: 25px;
+}
+
+.MainInfoArticle__text {
+    color: white;
+    padding: 15px 0;
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+@media (min-width: 920px) {
+    .MainInfoArticle__main-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 500px;
+        width: 60%;
+        text-align: left;
+    }
+
+    .MainInfoArticle__heading {
+        font-size: 30px;
+    }
+
+    .MainInfoArticle__text {
+        line-height: 22px;
+        font-size: 18px;
+    }
+}

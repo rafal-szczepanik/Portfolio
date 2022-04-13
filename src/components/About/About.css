@@ -14,97 +14,6 @@
     align-items: center;
 }
 
-.About__side-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    width: 90%;
-}
-
-.About__main-container {
-    width: 90%;
-    text-align: center;
-}
-
-.About__heading {
-    padding: 20px 0 10px;
-    color: white;
-    font-size: 25px;
-}
-
-.About__text {
-    color: white;
-    padding: 15px 0;
-    line-height: 20px;
-    letter-spacing: 1px;
-    font-size: 15px;
-}
-
-.About__skills-wrapper {
-    display: flex;
-    flex-direction: row;
-    margin: 20px 0;
-    width: 100%;
-    justify-content: center;
-}
-
-.About__skills-article {
-    flex-basis: 90%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 25px 0;
-}
-
-.About__skills-heading {
-    margin-bottom: 15px;
-    font-size: 25px;
-    padding: 25px 0;
-    color: white;
-}
-
-.About__skills-img-wrapper {
-    display: grid;
-    justify-items: center;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-.About__skills-img-container {
-    height: 30px;
-    width: 30px;
-}
-
-.About__skills-article img {
-    transition: .3s;
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.About__one-skills-container {
-    display: flex;
-    flex-direction: column;
-    padding: 10px 5px;
-    align-items: center;
-    transition: .4s ease;
-}
-
-.About__one-skills-container p {
-    color: white;
-    text-align: center;
-    padding: 5px
-}
-
-.About__one-skills-container:hover img {
-    transform: scale(1.1);
-}
-
-
-.About__one-skills-container:hover p {
-    color: var(--span-color)
-}
-
 @media (min-width: 920px) {
     .About__about-wrapper {
         width: 90%;
@@ -123,25 +32,7 @@
         width: 45px;
     }
 
-    .About__heading {
-        font-size: 30px;
-    }
-
-    .About__text {
-        line-height: 22px;
-        font-size: 18px;
-    }
-
     .About__side-container {
         width: 35%;
-    }
-
-    .About__main-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        height: 500px;
-        width: 60%;
-        text-align: left;
     }
 }
