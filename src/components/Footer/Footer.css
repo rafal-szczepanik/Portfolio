@@ -8,12 +8,14 @@
 }
 
 .Footer__text {
+    width: 120px;
     font-size: 12px;
     text-align: center;
     color: white;
 }
 
 .Footer__text a {
+    color: white;
     text-decoration: none;
 }
 

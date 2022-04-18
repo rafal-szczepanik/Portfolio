@@ -1,13 +1,16 @@
 import React from 'react';
+import {BsGithub, BsLinkedin} from "react-icons/bs";
 
 import './Footer.css';
-import {BsGithub, BsLinkedin} from "react-icons/bs";
 
 export const Footer = () => {
   return (
     <footer className="Footer">
-      <p style={{width:"120px"}} className="Footer__text"><a style={{color: "white"}} href="https://www.freepik.com"><span className="Footer__text-span">Designed by</span>
-        stories / Freepik</a></p>
+      <p className="Footer__text">
+        <a href="https://www.freepik.com"><span
+          className="Footer__text-span">Designed by</span>
+          stories / Freepik</a>
+      </p>
       <div>
         <p className="Footer__text">Created by </p>
         <p className="Footer__text">Rafał Szczepanik {new Date().getFullYear()}</p>
