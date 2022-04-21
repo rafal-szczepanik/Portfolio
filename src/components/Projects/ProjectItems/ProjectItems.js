@@ -17,7 +17,7 @@ import {ImHtmlFive} from "react-icons/im";
 export const ProjectItems = [
   {
     title: 'Portfolio',
-    description: "Porfolio - aplikacja React typu Single Page Application. Miejsce w którym na bierząco dokumentuję swoje postępy w programowaniu, przez dodawanie swoich projektów w formie zewnętrznego linku do kodu oraz wersji Live. Na stronie oprócz moich projektów, znajdziesz również moje CV oraz formularz kontaktowy w celu ułatwienia nawiązania współpracy.",
+    description: "Porfolio - aplikacja React typu Single Page Application. Miejsce w którym na bierząco dokumentuję swoje postępy w programowaniu, przez dodawanie swoich projektów w formie zewnętrznego linku do kodu oraz wersji Live. Na stronie oprócz moich projektów, znajdziesz również moje CV i formularz kontaktowy, co ułatwi nawiązanie współpracy.",
     codeLink: "https://github.com/rafal-szczepanik/Portfolio",
     liveLink: "https://rafal-szczepanik.github.io/Portfolio/",
     pictureUrl: "portfolio",
@@ -29,7 +29,7 @@ export const ProjectItems = [
   },
   {
     title: 'Wegańskie przepisy',
-    description: "Strona z wegańskimi przepisami (w trakcie rozwoju). Zainspirowany wegańską dietą, oraz korzystając ze zdjęć znajomych, napisałem aplikację gdzie w łatwy sposób możesz znaleźć przepis w zgodzie z naturą. Dzięki wykorzystaniu frameworku Gatsby, strona działa w zoptymalizowany sposób, a przy pomocy Contentful, można w łatwy sposób zarządzać treścią, dodaja lub edytując przepisy.",
+    description: "Strona z wegańskimi przepisami (w trakcie rozwoju). Zainspirowany wegańską dietą, oraz korzystając ze zdjęć znajomych, napisałem aplikację gdzie w łatwy sposób możesz znaleźć przepis z produktów pochodzenia roślinnego. Dzięki wykorzystaniu frameworku Gatsby, strona działa w zoptymalizowany sposób, a przy pomocy technologi Headles CMS - Contentful, można w łatwy sposób zarządzać treścią, dodając lub edytując przepisy.",
     codeLink: "https://github.com/rafal-szczepanik/vegan-recipies-blog",
     liveLink: "https://weganskie-przepisy.netlify.app/",
     pictureUrl: "wegeprzepisy2",
@@ -42,11 +42,7 @@ export const ProjectItems = [
   },
   {
     title: 'PerfectTree - strona firmowa',
-    description: "Od tego projektu zaczęła się moja prawdziwa przygoda z front-endem." +
-      " Wcześniej zajmowałem się alpinistyczną wycinką drzew i niezbędne było poszerzenie grona potencjalnych klientów. " +
-      "Wtedy zdecydowałem się na napisanie mojej pierwszej strony internetowej. Byłem w szoku jakie możliwości w połącznieu z HTML i CSS daje" +
-      " język programowania Javascript. Ponadto zrozumiałem jak potężnym narzędziem są strony internetowe," +
-      "generujące nowych kleintów.",
+    description: "Od tego projektu zaczęła się moja prawdziwa przygoda z front-endem. Wcześniej zajmowałem się alpinistyczną wycinką drzew i niezbędne było poszerzenie grona potencjalnych klientów. Wtedy zdecydowałem się na napisanie mojej pierwszej strony internetowej. Byłem w szoku jakie możliwości w połącznieu z HTML i CSS daje język programowania Javascript. Ponadto zrozumiałem jak potężnym narzędziem są strony internetowe, generujące nowych klientów.",
     codeLink: "https://github.com/rafal-szczepanik/PerfectTree-website",
     liveLink: "https://rafal-szczepanik.github.io/PerfectTree-website",
     pictureUrl: "perfecttree2",
@@ -58,7 +54,7 @@ export const ProjectItems = [
   },
   {
     title: 'ToDo Lista',
-    description: "Jeden z moich pierwszych projektów, który towarzyszy mi od początku mojej przygody z Javascript. Zaczynajac od prostej aplikacji, z czasem rozwijany i refaktoryzowany, aż do osiagnięcia obecnego kształtu. Aktualnie ToDo Lista korzysta z relacyjnej bazy danych MySQL, oraz back-endu napisanego w Express.js + Typescript. W planach mam dalszy rozwój tej aplikacji i przepisanie jej na react z wykorzystaniem Typescript po stronie front-endu.",
+    description: "Jeden z moich pierwszych projektów, który towarzyszy mi od początku mojej przygody z Javascript. Rozpoczęty od prostej aplikacji, z czasem rozwijanej i refaktoryzowanej, aż do osiagnięcia obecnego kształtu. Aktualnie ToDo Lista korzysta z relacyjnej bazy danych MySQL, oraz back-endu napisanego w Express.js + Typescript. W planach mam dalszy rozwój tej aplikacji i przepisanie jej na React z wykorzystaniem Typescript po stronie front-endu.",
     codeLink: "https://github.com/rafal-szczepanik/Todo-list-with-TypeScript-MySQL",
     liveLink: "https://expresstodolist.rafalszczepan.repl.co/",
     pictureUrl: "todolist2",
@@ -83,7 +79,7 @@ export const ProjectItems = [
   },
   {
     title: 'Gra Pong',
-    description: "Projekt inspirowany grą z lat dzieciństwa. Nic tak nie uczy i nie utrwala wiedzy jak praca nad grą. Do napisania jej wykorzystałem HTML, CSS oraz Javascript. Gra nie jest przystosowana do smartfonów, dlatego niestety nie zagrasz w nią na swoim telefonie. Natomiast nic nie stoi na przeszkodzie w spróbowaniu swoich sił z 'AI' korzystajać z przeglądarki na komputerze stacjonarnym.",
+    description: "Projekt inspirowany grą z lat dzieciństwa. Nic tak nie uczy i nie utrwala wiedzy jak praca nad grą. Do napisania jej, wykorzystałem HTML, CSS oraz Javascript. Gra nie jest przystosowana do smartfonów, dlatego niestety nie zagrasz w nią na swoim telefonie. Natomiast nic nie stoi na przeszkodzie w spróbowaniu swoich sił z 'AI' korzystajać z przeglądarki na komputerze stacjonarnym.",
     codeLink: "https://github.com/rafal-szczepanik/pong-game",
     liveLink: "https://rafal-szczepanik.github.io/pong-game/",
     pictureUrl: "ponggame2",
