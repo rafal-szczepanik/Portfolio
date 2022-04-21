@@ -1,10 +1,11 @@
 import React from 'react';
-import {NavBarItems} from '../../NavBarItems/NavBarItems';
-import './SideBar.css';
 import {Link} from 'react-scroll';
 import {Link as RouterLink} from "react-router-dom";
-import {RedirectLink} from "../../../common/RedirectLink/RedirectLink";
 import {BsGithub} from "react-icons/bs";
+import {RedirectLink} from "../../../common/RedirectLink/RedirectLink";
+import {NavBarItems} from '../../NavBarItems/NavBarItems';
+
+import './SideBar.css';
 
 export const SideBar = props => {
   const {isOpen, handleCloseMenu} = props;

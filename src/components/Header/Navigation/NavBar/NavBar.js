@@ -47,7 +47,7 @@ export const NavBar = props => {
         <li className="NavBar__nav-item-github">
           <RedirectLink
             url={"https://github.com/rafal-szczepanik/"}
-            text={"Find me on"}
+            text={"Github"}
             otpionalGrafic={<BsGithub style={{fontSize: "22px", margin: "0 10px"}}/>}
           />
         </li>
